@@ -208,7 +208,7 @@ export const projects: Project[] = [
     summary: 'A physical two-axis camera that follows an enrolled face using custom YOLO inference and delay-aware predictive control.',
     overview: 'I designed, printed and assembled a robotic camera, trained a detector for one enrolled face, and built the C++ perception and predictive control loop that drives its Arduino-controlled servos.',
     video: {id:'-N-iI8u7ksU', title:'Webcam Tracker Demo'},
-    repository: 'https://github.com/Nxrgraz/Webcam-Tracker',
+    repository: 'https://github.com/JerisonTIan1/Webcam-Tracker',
     highlights: [
       'Trained a custom YOLO model with PyTorch / Ultralytics and deployed ONNX inference directly in C++ with OpenCV DNN.',
       'Built independent pan and tilt MPC controllers at approximately 20 Hz with a 10-step, 0.5-second prediction horizon.',

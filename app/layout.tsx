@@ -3,7 +3,7 @@ import './globals.css';
 
 const title = 'Jerison Tian — Robotics & Mechatronics Portfolio';
 const description = 'Jerison Tian is a mechatronics and robotics engineering co-op student at the University of Alberta working on autonomous drone research and personal robotics projects.';
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nxrgraz.github.io/jerison-portfolio';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://jerisontian1.github.io/jerison-portfolio';
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title,
